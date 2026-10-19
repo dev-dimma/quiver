@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 import rcnLogo from "../assets/images/logo.png";
-import believersLogo from "../assets/images/believers white.png";
-import audioTreasureLogo from "../assets/images/audiotreasure.com.png";
+import believersLogo from "../assets/images/believers.png";
+import audioTreasureLogo from "../assets/images/audio-treasure.png";
 
 const partners = [
   {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import logo from "../assets/images/favicon.png";
-import layer5 from "../assets/images/layer 4.png";
+import layer5 from "../assets/images/about.png";
 
 const EASE = [0.16, 1, 0.3, 1];
 
