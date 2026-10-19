@@ -13,11 +13,11 @@ export default function Mission() {
           className="
             relative isolate
             grid items-center
-            min-h-[540px]
+            min-h-135
             rounded-[36px]
             md:grid-cols-[1.05fr_0.95fr]
-            md:min-h-[530px]
-            lg:min-h-[550px]
+            md:min-h-132.5
+            lg:min-h-137.5
           "
         >
           {/* BACKGROUND - clipped to rounded container */}
@@ -38,7 +38,7 @@ export default function Mission() {
             <div
               className="
                 absolute
-                -right-[15%] -bottom-[45%]
+                right-[15%] bottom-[45%]
                 h-[115%] w-[85%]
                 rounded-full
                 opacity-70 blur-xl
@@ -88,7 +88,7 @@ export default function Mission() {
               <span
                 className="
                   h-4 w-4
-                  shrink-0 rounded-[4px]
+                  shrink-0 rounded-sm
                   bg-pink
                 "
               />
@@ -99,7 +99,7 @@ export default function Mission() {
             {/* Heading */}
             <h2
               className="
-                mb-7 max-w-[580px]
+                mb-7 max-w-145
                 font-display
                 text-[34px] font-extrabold
                 leading-[1.12] tracking-[-0.035em]
@@ -117,7 +117,7 @@ export default function Mission() {
             {/* Description */}
             <p
               className="
-                max-w-[490px]
+                max-w-122.5
                 text-base font-normal
                 leading-[1.75] text-[#625d68]
                 sm:text-lg
@@ -135,7 +135,7 @@ export default function Mission() {
           <div
             className="
               relative z-10
-              flex h-[350px]
+              flex h-87.5
               items-end justify-center
               self-end
               md:h-full
@@ -168,15 +168,15 @@ export default function Mission() {
                   absolute z-10
                   bottom-0 right-0
                   h-auto
-                  w-[300px]
+                  w-75
                   max-w-none
                   object-contain
-                  sm:w-[350px]
-                  md:bottom-[-80px]
+                  sm:w-87.5
+                  md:-bottom-20
                   md:right-0
-                  md:w-[420px]
-                  lg:w-[470px]
-                  xl:w-[500px]
+                  md:w-105
+                  lg:w-117.5
+                  xl:w-125
                 "
               />
             </div>
@@ -195,7 +195,7 @@ export default function Mission() {
             <span
               className="
                 absolute
-                h-[5px] w-8
+                h-1.25 w-8
                 rotate-[-55deg]
                 rounded-full
                 bg-[#c41481]
@@ -205,7 +205,7 @@ export default function Mission() {
             <span
               className="
                 absolute left-4 top-5
-                h-[5px] w-8
+                h-1.25 w-8
                 rotate-[-30deg]
                 rounded-full
                 bg-[#c41481]
@@ -215,7 +215,7 @@ export default function Mission() {
             <span
               className="
                 absolute left-6 top-11
-                h-[5px] w-7
+                h-1.25 w-7
                 rotate-[-10deg]
                 rounded-full
                 bg-[#c41481]

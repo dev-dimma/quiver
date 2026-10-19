@@ -23,7 +23,7 @@ function AccentLines({ side = "left", className = "" }) {
         className={`
           h-10 w-8
           sm:h-14 sm:w-11
-          lg:h-[75px] lg:w-[55px]
+          lg:h-18.75 lg:w-13.75
           ${!isLeft ? "scale-x-[-1]" : ""}
         `}
       >
@@ -68,7 +68,7 @@ export default function About() {
         className="
           pointer-events-none
           absolute inset-x-0 top-0
-          h-[500px]
+          h-125
         "
         style={{
           background:
@@ -110,7 +110,7 @@ export default function About() {
           <div
             className="
               relative mx-auto
-              w-full max-w-[1100px]
+              w-full max-w-275
               lg:px-20
             "
           >
@@ -170,12 +170,12 @@ export default function About() {
             rounded-[26px]
             text-white
             shadow-[0_25px_60px_rgba(80,20,65,0.15)]
-            sm:rounded-[32px]
+            sm:rounded-4xl
             lg:grid-cols-[1.05fr_0.95fr]
-            lg:min-h-[500px]
+            lg:min-h-125
             lg:overflow-visible
             lg:rounded-[36px]
-            xl:min-h-[540px]
+            xl:min-h-135
           "
         >
           {/* PURPLE BACKGROUND */}
@@ -186,7 +186,7 @@ export default function About() {
               absolute inset-0
               overflow-hidden
               rounded-[26px]
-              sm:rounded-[32px]
+              sm:rounded-4xl
               lg:rounded-[36px]
             "
             style={{
@@ -197,15 +197,15 @@ export default function About() {
             <div
               className="
                 absolute
-                -left-[35%] -top-[35%]
-                h-[450px] w-[450px]
+                left-[35%] top-[35%]
+                h-112.5 w-112.5
                 rounded-full
                 bg-[#F45AB8]/15
-                sm:-left-[20%]
-                lg:-left-[15%]
-                lg:-top-[55%]
-                lg:h-[600px]
-                lg:w-[600px]
+                sm:left-[20%]
+                lg:left-[15%]
+                lg:top-[55%]
+                lg:h-150
+                lg:w-150
               "
             />
 
@@ -213,7 +213,7 @@ export default function About() {
               className="
                 absolute
                 -bottom-40 -right-32
-                h-[400px] w-[400px]
+                h-100 w-100
                 rounded-full
                 bg-[#F34AAF]/20
                 blur-3xl
@@ -224,7 +224,7 @@ export default function About() {
               className="
                 absolute
                 bottom-[-40%] left-[15%]
-                h-[350px] w-[350px]
+                h-87.5 w-87.5
                 rounded-full
                 bg-pink/15
                 blur-[90px]
@@ -296,12 +296,12 @@ export default function About() {
                 relative z-10
                 block h-auto
                 w-full
-                max-w-[260px]
+                max-w-65
                 object-contain
                 drop-shadow-[0_25px_30px_rgba(30,0,25,0.3)]
-                min-[375px]:max-w-[300px]
-                sm:max-w-[400px]
-                md:max-w-[480px]
+                min-75:max-w-75
+                sm:max-w-100
+                md:max-w-120
                 lg:absolute
                 lg:bottom-0
                 lg:left-1/2
@@ -378,7 +378,7 @@ export default function About() {
                 className="
                   h-3.5 w-3.5
                   shrink-0
-                  rounded-[4px]
+                  rounded-sm
                   bg-[#FF1493]
                   shadow-[0_0_15px_rgba(255,20,147,0.35)]
                 "
@@ -400,7 +400,7 @@ export default function About() {
             {/* DESCRIPTION */}
             <p
               className="
-                max-w-[520px]
+                max-w-130
                 text-sm
                 font-normal
                 leading-[1.8]
